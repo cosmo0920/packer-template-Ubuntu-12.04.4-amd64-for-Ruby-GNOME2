@@ -2,9 +2,7 @@
 
 sudo apt-get install -y software-properties-common python-software-properties
 
-if ! apt-cache show gir1.2-gstreamer-1.0 > /dev/null 2>&1; then
-    sudo add-apt-repository --yes ppa:gstreamer-developers/ppa
-fi
+sudo add-apt-repository --yes ppa:gstreamer-developers/ppa
 sudo apt-get update -qq
 sudo apt-get install -qq -y \
     libgirepository1.0-dev \
