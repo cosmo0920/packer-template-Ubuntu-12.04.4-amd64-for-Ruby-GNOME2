@@ -9,7 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.box_url = "./builds/Ubuntu-12.04-x86_64.box"
 
-  # config.vm.box_check_update = true
+  config.vm.box_check_update = true
 
   config.vm.network "forwarded_port", guest: 80, host: 8081
 

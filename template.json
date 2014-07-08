@@ -52,6 +52,7 @@
         {
             "type": "shell",
             "scripts": [
+                "scripts/development-tool.sh",
                 "scripts/libraries.sh",
                 "scripts/vm_cleanup.sh"
             ],
