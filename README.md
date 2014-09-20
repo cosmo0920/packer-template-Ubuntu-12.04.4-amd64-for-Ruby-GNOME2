@@ -12,3 +12,9 @@ This packer template is originally based on [futoase/packer-template](https://gi
 ```bash
 $ packer build -only=virtualbox-iso template.json
 ```
+
+### using vagrant box
+
+```bash
+$ vagrant up
+```
